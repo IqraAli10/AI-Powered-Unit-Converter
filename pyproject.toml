@@ -1,0 +1,21 @@
+[project]
+name = "unit-converter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Moiz Ali", email = "168088647+moiz257@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.42.2",
+    "plotly",
+]
+
+
+[project.scripts]
+unit-converter = "unit_converter:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
