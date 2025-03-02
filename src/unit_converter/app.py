@@ -5,8 +5,8 @@ import os
 import plotly.express as px  # Importing Plotly for graph visualization
 
 # Set Gemini API Key (Replace 'your-api-key' with your actual key)
-API_KEY = "AIzaSyATmW-HObq5S2IufiwRknzkPskF0Pi9na4"
-genai.configure(api_key=os.environ[API_KEY])
+ 
+genai.configure(api_key=os.environ["AIzaSyATmW-HObq5S2IufiwRknzkPskF0Pi9na4"])
 
 # Function to fetch real-time exchange rates
 def get_exchange_rate(from_currency, to_currency):
